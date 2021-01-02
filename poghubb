@@ -27,6 +27,26 @@ hub:Button("Dark Hub", function()
 end);
 hub:Button("TEAX [PF ONLY]", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/8TMfFBB3", true))()
-end);   
+end); 
 
+local hub = library:CreateSection("Vynixu");
+hub:Label("Vynixu's Scripts")
+hub:Button("Vynixu's Jailbreak [no free executors]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak"))()
+end);
+hub:Button("Vynixu's Prison Life", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Prison%20Life"))()
+end);
+hub:Button("Vynixu's Animations: Mocap", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Animations%3A%20Mocap"))()
+end);
+hub:Button("Speed Run 4", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Speed%20Run%204"))()
+end);
+hub:Button("Zombie Rush", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Zombie%20Rush"))()
+end);
+hub:Button("Ragdoll Engine", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine%20Loader"))()
+end);
 library:Ready();
