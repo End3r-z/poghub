@@ -49,4 +49,8 @@ end);
 hub:Button("Ragdoll Engine", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Ragdoll%20Engine%20Loader"))()
 end);
+local hub= library:CreateSection("Credits");
+hub:Label("Compiling Scripts - End3r_z [me])
+hub:Label("Credits to all of the script makers")
+hub:Label("I did NOT make these scripts")
 library:Ready();
